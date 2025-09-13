@@ -3,3 +3,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Odin';
+    src: url("static/Norse-Bold.otf");
+}
+
+body{
+    display: flex;
+    height: 150vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Odin';
+    font-size: 7.5em;
+}
+
+.plants{
+    
+    flex: .65;
+    display: flex;
+    background: url("static/images/halie-west-25xggax4bSA-unsplash.jpg") top center/128% no-repeat;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 14.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42%;
+}
+
+.logo img{
+    height: auto;
+    width: 7.5em;
+}
+
+.left-footer{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+a {
+    color: white;
+}
+
+
+.signup{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+}
+
+
+.content {
+    padding: 0 64px;
+    margin: 32px 0;
+}
+
+.header, p{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 64px;
+}
+
+p{
+    margin-bottom: 24px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 96px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 330px;
+    height: 40px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+input:focus{
+    border-color: blue;
+    outline: none;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.473);
+    margin-bottom: 32px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 16px 64px;
+    display: block;
+    margin-bottom: 32px;
+}
+
+button + p{
+    font-size: 24px;
+}
+
+p>a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+
